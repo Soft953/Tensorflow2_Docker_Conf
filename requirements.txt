@@ -107,7 +107,7 @@ PyYAML==3.13
 pyzmq==16.0.2
 qtconsole==4.2.1
 redis==2.10.6
-requests==2.19.1
+requests==2.20.0
 requestsexceptions==1.4.0
 rfc3986==1.1.0
 scikit-image==0.14.1
