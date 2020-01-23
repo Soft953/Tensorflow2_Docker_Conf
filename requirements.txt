@@ -51,7 +51,7 @@ linecache2==1.0.0
 MarkupSafe==1.0
 matplotlib==2.2.2
 mccabe==0.6.1
-mistune==0.7.3
+mistune==0.8.1
 monotonic==1.5
 msgpack==0.5.6
 munch==2.3.2
