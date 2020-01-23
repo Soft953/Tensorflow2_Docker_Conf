@@ -1,0 +1,18 @@
+version: '2.3'
+
+services:
+        tf:
+                image: tf:latest-gpu-py3-jupyter
+                runtime: nvidia
+                build: .
+                ports:
+                        - "82:80"
+                        - "32777:8888"
+                        - "6006:6006"
+                volumes:
+                        - DATA_PATH/:/app/Data
+                        - PROJECT_PATH/:/app/Repo/
+                        - NOTEBOOK_PATH/:/tf/notebooks
+                environment:
+                        - PYTHONPATH=/app/Repo/
+                        - NVIDIA_VISIBLE_DEVICES=all
