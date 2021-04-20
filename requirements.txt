@@ -85,7 +85,7 @@ prettytable==0.7.2
 prompt-toolkit==1.0.14
 psycopg2-binary==2.7.7
 ptyprocess==0.5.1
-py==1.4.31
+py==1.10.0
 pycodestyle==2.5.0
 pycparser==2.18
 pyflakes==2.1.0
