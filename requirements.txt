@@ -25,7 +25,7 @@ dogpile.cache==0.6.6
 entrypoints==0.3
 flake8==3.7.4
 Flask==1.0.2
-html5lib==0.999
+html5lib==0.999999999
 idna==2.7
 imutils==0.5.2
 ipykernel==4.6.1
